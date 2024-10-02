@@ -37,30 +37,30 @@ def dictToExcel(dicts, filename):
         print(f"Data successfully saved to {filename}")
 
 # test input
-dictToExcel([{
-  "_id": "66f5a22f271ce1b69b2460f4",
-  "location": {
-    "latitude": 51.02989578,
-    "longitude": 4.475098133
-  },
-  "temperature": 22.5,
-  "co2_level": 412,
-  "dust_particles": 12,
-  "ctr": 0,
-  "createdAt": "2024-09-26T18:04:31.608Z",
-  "updatedAt": "2024-09-26T18:04:31.608Z",
-  "Session_Id": 1
-},{
-  "_id": "66f5a22f271ce1b69b2460f4",
-  "location": {
-    "latitude": 52.02989578,
-    "longitude": 4.475098133
-  },
-  "temperature": 21.5,
-  "co2_level": 312,
-  "dust_particles": 22,
-  "ctr": 0,
-  "createdAt": "2024-09-22T18:04:31.608Z",
-  "updatedAt": "2024-09-22T18:04:31.608Z",
-  "Session_Id": 2
-}], "output.xlsx")
+# dictToExcel([{
+#   "_id": "66f5a22f271ce1b69b2460f4",
+#   "location": {
+#     "latitude": 51.073916
+#     "longitude": 3.750012
+#   },
+#   "temperature": 22.5,
+#   "co2_level": 412,
+#   "dust_particles": 12,
+#   "ctr": 0,
+#   "createdAt": "2024-09-26T18:04:31.608Z",
+#   "updatedAt": "2024-09-26T18:04:31.608Z",
+#   "Session_Id": 1
+# },{
+#   "_id": "66f5a22f271ce1b69b2460f4",
+#   "location": {
+#     "latitude": 51.238176
+#     "longitude": 4.373172
+#   },
+#   "temperature": 18.5,
+#   "co2_level": 313,
+#   "dust_particles": 22,
+#   "ctr": 0,
+#   "createdAt": "2024-09-22T18:04:31.608Z",
+#   "updatedAt": "2024-09-22T18:04:31.608Z",
+#   "Session_Id": 2
+# }], "output.xlsx")
